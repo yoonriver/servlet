@@ -18,7 +18,8 @@ import java.util.Enumeration;
 public class RequestParamServlet extends HttpServlet {
 
     @Override
-    protected void service(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+    protected void service(HttpServletRequest request, HttpServletResponse
+            resp) throws ServletException, IOException {
 
         System.out.println("[전체 파라미터 조회] - start");
 
